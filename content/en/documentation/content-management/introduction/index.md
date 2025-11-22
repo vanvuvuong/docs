@@ -137,7 +137,7 @@ hugo new --kind post-bundle posts/bar/
 
 - **title**: the title for the content.
 - **subtitle**: the subtitle for the content.
-- **date**: the datetime assigned to this page, which is usually fetched from the `date` field in front matter, but this behaviour is configurabl in the [theme configuration][theme-config].
+- **date**: the datetime assigned to this page, which is usually fetched from the `date` field in front matter, but this behaviour is configurable in the [theme configuration][theme-config].
 - **lastmod**: the datetime at which the content was last modified.
 - **draft**: if `true`, the content will not be rendered unless the `--buildDrafts`/`-D` flag is passed to the `hugo` command.
 - **author**: {{< version 0.2.18 changed >}} the author config for the content, the same as the `params.author` part in the [theme configuration][theme-config].
